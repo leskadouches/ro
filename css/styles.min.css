@@ -2,8 +2,14 @@
 @import "https://fonts.googleapis.com/css?family=Merriweather:400,300,400italic,300italic,700,700italic";
 @import "https://fonts.googleapis.com/css?family=Nunito:400,300,700";
 
-@font-face { font-family: TheHand; src: url('../The-Hand-Regular.otf'); } 
-@font-face { font-family: Mistral; src: url('../MISTRAL.TTF'); }
+@font-face {
+  font-family: TheHand;
+  src: url("../The-Hand-Regular.otf");
+}
+@font-face {
+  font-family: Mistral;
+  src: url("../MISTRAL.TTF");
+}
 
 .custom-font-the-hand {
   font-family: TheHand, sans-serif;
@@ -11,6 +17,43 @@
 
 .custom-font-mistral {
   font-family: Mistral, sans-serif;
+}
+
+.intro-text {
+  line-height: 40px;
+  margin-bottom: 30px;
+}
+
+.timeline-img {
+  display: flex;
+  justify-content: center;
+}
+
+.timeline-img-height {
+  max-height: 800px;
+}
+
+.rsvp-q-font-size {
+  font-size: 25px
+}
+
+.titles {
+  max-width: 250px;
+  margin-bottom: 40px 
+}
+
+.title-custom {
+  max-width: 350px;
+  margin-bottom: 40px
+}
+
+.menu-font-size {
+  font-size: 30px;
+}
+
+.footer-text {
+  padding: 0;
+  margin: 0;
 }
 
 p {
@@ -44,7 +87,7 @@ h4 {
 }
 
 h5 {
-  font-size: 15px;
+  font-size: 25px;
   color: #000000;
   text-transform: uppercase;
   font-weight: 500;
@@ -69,11 +112,10 @@ h5 {
 
 .btn-white:hover,
 .btn-white:focus {
- 
 }
 
 .btn-directions {
-    color: black;
+  color: black;
 }
 
 .btn-fill {
@@ -172,7 +214,7 @@ section .header {
 }
 
 .section-padding {
-  padding: 40px 0;
+  padding: 30px 0;
 }
 
 .section-border {
@@ -418,6 +460,7 @@ section .header {
 
 .picture-row {
   margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .front .front-img {
@@ -438,7 +481,7 @@ section .header {
 }
 
 .p-font-size-date {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 .location-pic {
@@ -489,7 +532,7 @@ section .header {
 }
 
 .white {
-    color: white !important;
+  color: white !important;
 }
 
 /* timeline */
@@ -535,7 +578,7 @@ h3 {
   font-size: 1.4em;
 }
 
-.timeline .event {
+/* .timeline .event {
   border-bottom: 1px dashed rgba(255, 255, 255, 0.1);
   padding-bottom: 25px;
   margin-bottom: 10px;
@@ -546,16 +589,16 @@ h3 {
   padding-bottom: 0;
   margin-bottom: 0;
   border: none;
-}
+} */
 
-.timeline .event:before,
+/* .timeline .event:before,
 .timeline .event:after {
   position: absolute;
   display: block;
   top: 0;
-}
+} */
 
-.timeline .event:before {
+/* .timeline .event:before {
   left: -210px;
   color: fade(white, 40%);
   content: attr(data-date);
@@ -580,7 +623,7 @@ h3 {
 .timeline-text {
   font-size: 15px;
   margin: 0;
-}
+} */
 
 /* end */
 
@@ -596,7 +639,7 @@ header {
 header a {
   color: #fff;
   text-transform: uppercase;
-  font-size: 15px;
+  font-size: 25px;
 }
 
 header a.login {
@@ -657,8 +700,8 @@ header .member-actions {
 }
 
 .logo-heart a {
-    color: black;
-    font-size: 25px !important;
+  color: black;
+  font-size: 25px !important;
 }
 
 .down-arrow {
@@ -694,7 +737,6 @@ header .member-actions {
 }
 
 #intro {
-  
 }
 
 #intro img {
@@ -871,7 +913,7 @@ header .member-actions {
 }
 
 .events-title {
-    font-size: 28px;
+  font-size: 28px;
 }
 
 .events-info {
@@ -990,7 +1032,7 @@ header .member-actions {
 }
 
 #eng-pics {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 #eng-pics img {
@@ -1124,41 +1166,44 @@ header .member-actions {
 }
 
 .contact-row {
-    display: flex;
-    justify-content: space-between;
-    margin: 50px 0;
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0;
 }
 
 .contact-square {
-    padding: 20px;
-    border: solid 1px #000;
-    max-width: 39%;
+  padding: 20px;
+  border: solid 1px #000;
+  max-width: 39%;
 }
 
 .contact-info {
-    padding-top: 100px;
+  display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .contact-img {
-    max-width: 400px
+  max-width: 400px;
 }
 
 .contact-title {
-    font-size: 18px;
+  font-size: 30px;
 }
 
 .contact-name {
-    padding: 0;
-    font-weight: bold;
+  padding: 0;
+  font-weight: bold;
 }
 
-
 .directions-text {
-    padding: 0;
+  padding: 0;
+  font-size: 20px
 }
 
 .directions {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .toggle-map-content {
@@ -1175,7 +1220,7 @@ header .member-actions {
 }
 
 .rsvp {
-  padding-bottom: 140px;
+  padding-bottom: 100px;
 }
 
 .rsvp .rsvp-form .rsvp-btn {
@@ -1183,7 +1228,7 @@ header .member-actions {
   padding: 15px 0;
   border-radius: 0px;
   width: 20%;
-  font-size: 13px;
+  font-size: 20px;
 }
 
 .rsvp .rsvp-form .form-input-group {
@@ -1253,6 +1298,7 @@ header .member-actions {
   display: flex;
   gap: 30px;
   justify-content: center;
+  align-items: center;
   margin: 10px 0;
 }
 
