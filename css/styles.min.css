@@ -2,8 +2,19 @@
 @import "https://fonts.googleapis.com/css?family=Merriweather:400,300,400italic,300italic,700,700italic";
 @import "https://fonts.googleapis.com/css?family=Nunito:400,300,700";
 
+@font-face { font-family: TheHand; src: url('../The-Hand-Regular.otf'); } 
+@font-face { font-family: Mistral; src: url('../MISTRAL.TTF'); }
+
+.custom-font-the-hand {
+  font-family: TheHand, sans-serif;
+}
+
+.custom-font-mistral {
+  font-family: Mistral, sans-serif;
+}
+
 p {
-  font-size: 15px;
+  font-size: 30px;
   line-height: 29px;
   color: black;
   padding-bottom: 20px;
@@ -423,11 +434,11 @@ section .header {
 }
 
 .p-font-size {
-  font-size: 18px;
+  font-size: 28px;
 }
 
 .p-font-size-date {
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .location-pic {
@@ -860,7 +871,7 @@ header .member-actions {
 }
 
 .events-title {
-    font-size: 18px;
+    font-size: 28px;
 }
 
 .events-info {
