@@ -38,6 +38,11 @@
 
 /* Responsive nav kicks in */
 @media screen and (max-width: 991px) {
+  .photo-container {
+    margin-bottom: 60px;
+    margin-top: 100px;
+  }
+
   .contact-img {
     max-width: 315px;
   }
@@ -284,6 +289,11 @@
 }
 
 @media screen and (max-width: 768px) {
+  .photo-container {
+    margin-bottom: 60px;
+    margin-top: 100px;
+  }
+
   .contact-row {
     display: block;
     margin: 50px 20px;
@@ -310,6 +320,11 @@
 }
 
 @media screen and (max-width: 640px) {
+  .photo-container {
+    margin-bottom: 60px;
+    margin-top: 100px;
+  }
+
   .contact-row {
     display: block;
     margin: 50px 20px;
@@ -377,6 +392,23 @@
 }
 
 @media screen and (max-width: 480px) {
+  .custom-p {
+    text-wrap: pretty;
+  }
+
+  .rsvp-q-font-size {
+    font-size: 22px;
+  }
+
+  .photo-container {
+    margin-bottom: 60px;
+    margin-top: 60px;
+  }
+
+  .photo {
+    max-width: 360px;
+  }
+
   p {
     font-size: 25px;
   }
@@ -415,13 +447,11 @@
   }
 
   .events-info {
-    margin: 20px 20px;
-    height: 280px;
-    width: 280px;
     display: flex;
     padding: 0;
     flex-direction: column;
     justify-content: center;
+    height: 160px;
   }
 
   .events-text {
@@ -431,10 +461,14 @@
   .square {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    margin: 0 20px;
+    padding: 20px 0;
+    margin-bottom: 40px;
   }
 
   .wp3 {
-    margin-top: 20px
+    margin-top: 20px;
   }
 
   .wp3 img {
@@ -545,13 +579,48 @@
   }
 }
 
+@media screen and (max-width: 415px) {
+  .contact-img {
+    max-width: 265px;
+  }
+
+  .photo-container {
+    margin-top: 90px;
+  }
+
+  .photo {
+    max-width: 345px;
+  }
+}
+
 @media screen and (max-width: 400px) {
   .contact-img {
     max-width: 265px;
   }
+
+  .photo-container {
+    margin-top: 90px;
+  }
+
+  .photo {
+    max-width: 305px;
+  }
+
+  .front .front-img {
+    max-width: 320px;
+    max-height: 400px;
+  }
 }
 
 @media screen and (max-width: 320px) {
+  .photo-container {
+    margin-top: 90px;
+  }
+
+  .photo {
+    max-width: 250px;
+  }
+
   .contact-row {
     display: block;
     margin: 50px 0;
@@ -573,7 +642,7 @@
   }
 
   .front .front-img {
-    max-width: 400px;
+    max-width: 320px;
     max-height: 400px;
   }
 
