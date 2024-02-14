@@ -11,6 +11,10 @@
   src: url("../MISTRAL.TTF");
 }
 
+.intro-icon {
+  max-width: 40px;
+}
+
 .photo-container {
   display: flex;
   justify-content: center;
